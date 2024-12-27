@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VK's E-learning</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light fixed-top p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light" href="#">VK's E-learning</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon text-light"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-light" tabindex="1" id="offcanvasNavbar">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-1">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#about">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light" href="#courses" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown">
+                  Courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#web" class="dropdown-item">Web Development</a></li>
+                  <li><a href="#ds" class="dropdown-item">Data Science</a></li>
+                  <li><a href="#da" class="dropdown-item">Data Analytics</a></li>
+                  <li><a href="#am" class="dropdown-item">AI and ML</a></li>
+                  <li><a href="#dm" class="dropdown-item">Digital Marketing</a></li>
+                  <li><a href="#python" class="dropdown-item">Python</a></li>
+                  <li><a href="#web" class="dropdown-item">Backend Web Development</a></li>
+                  <li><a href="#fsd" class="dropdown-item">Full stack development</a></li>
+                  <li><a href="#java" class="dropdown-item">java</a></li>
+                  <li><a href="#c" class="dropdown-item">c</a></li>
+                  <li><a href="#ui/ux" class="dropdown-item">Ui/Ux</a></li>
+                  <li><a href="#ruby" class="dropdown-item">Ruby</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <div id="home" class="home row p-5 mt-5 text-dark text-center">
+      <div class="col-md-6 lg-12 sm-4 pt-5 align-items-center">
+        <h2>Your Gateway to Unlimited Learning</h2>
+        <p>Empower your learning journey with a platform designed to provide engaging, flexible, and high-quality educational resources.
+           Whether you're a student, professional, or lifelong learner, our diverse range of courses, 
+           expert-led content, and interactive tools are here to help you achieve your goals. Explore topics at
+            your own pace, track your progress, and gain recognized certifications to showcase your skills.Join a global 
+            community of learners and transform the way you learn, grow, and succeed—anytime, anywhere</p>
+            <a href="#courses" class="btn btn-primary mt-5 mb-5 " >See our courses</a>
+      </div>
+      <div class="col-md-6 lg-12 sm-4 pt-5 text-center">
+        <img src="images/image2.jpeg" alt="Learning banner" >
+      </div>
+    </div>
+
+    <!-- Courses Section -->
+    <h1 class="text-center p-5">Courses Offered by Us</h1>
+    <div class="row g-4" id="courses">
+      <div class="col shadow-lg  m-4 text-center" id="web">
+        <img src="images/few.png"  alt="" class="bg-image hover-zoom">
+        <h2>Frontend dev</h2>
+    <p>Master HTML, CSS, and JavaScript to build beautiful and interactive user interfaces.</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="ds">
+        <img src="images/ds.jpeg" alt="">
+        <h2>Data science</h2>
+        <p>Data Science Mastery: Unlock the Power of Data</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="da">
+        <img src="images/da.jpeg" alt="">
+        <h2>Data analytics</h2>
+        <p>Learn data analytics fundamentals, including data collection, cleaning, and visualization.</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="java">
+        <img src="images/java.png" alt="">
+        <h2>Java</h2>
+        <p>Master Java programming from basics to advanced concepts with hands-on projects and real-world applications</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="da">
+        <img src="images/pe.jpeg" alt="">
+        <h2>professional English</h2>
+        <p>Enhance your skills and advance your career with our comprehensive professional development course, tailored for online learning success</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="python">
+        <img src="images/python.png" alt="">
+        <h2>python</h2>
+        <p>Master Python programming from basics to advanced with hands-on projects and real-world applications</p>
+      </div>
+      <div class="col shadow-lg  m-4 text-center" id="web">
+        <img src="images/bew.jpeg" alt="">
+        <h2>backend web dev</h2>
+    <p>Learn server-side programming, database management, and integration with SQL and popular frameworks.</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="fsd">
+        <img src="images/fsw.png" alt="">
+        <h2>Full stack dev</h2>
+        <p>Master the art of full-stack web development with hands-on projects, covering front-end, back-end, and database integration for building dynamic, responsive e-learning websites.</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="dm">
+        <img src="images/dm.jpeg" alt="">
+        <h2>Digital marketing</h2>
+        <p>Master the art of online branding and customer engagement with our comprehensive Digital Marketing course</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="ruby">
+        <img src="images/ruby.jpeg" alt="">
+        <h2>Ruby</h2>
+        <p>Master Ruby programming with interactive lessons and real-world projects in this comprehensive e-learning course</p>
+      </div>
+      <div class="col shadow-lg  m-4 text-center" alt="" id="c">
+        <img src="images/c.jpeg" alt="">
+        <h2>c</h2>
+        <p>Master the fundamentals of C programming with interactive lessons and hands-on exercises for a strong coding foundation</p>
+      </div>
+      <div class="col shadow-lg m-4 text-center" id="ui/ux">
+        <img src="images/ui.png" alt="">
+        <h2>UI/UX</h2>
+        <p>Master the art of designing intuitive and engaging user interfaces with a comprehensive UI/UX course tailored for e-learning platforms.</p>
+      </div>
+    </div>
+    <div id="about" class="text-center text-light p-5 m-5">
+      <h1>About us</h1>
+     <h4 class="p-3 text-info">Welcome to VK's E-Learning Website</h4> 
+
+<p >We are a dynamic and innovative platform dedicated to transforming the way knowledge is shared and acquired in the digital age. Our mission is to make education accessible, engaging, and impactful for learners of all ages and backgrounds.
+</p>  
+<h4 class="p-3 text-info">Who We Are</h4>
+<p >At VK's e learning, we bring together a passionate team of educators, technologists, and designers with one common goal: to create a world where learning is limitless. Founded in [Year], our platform serves as a bridge between aspiring learners and expert educators, ensuring everyone has the opportunity to reach their full potential.</p>   </div>
+ 
+  
+    <!-- Contact Section -->
+    <footer id="contact" class="footer text-center p-5 ">
+      <h1 class="text-light">Contact Us</h1>
+      <form action="mailto:2003vasuki@gmail.com" class="row g-3  justify-content-center">
+        <div class="col-12 col-md-6">
+          
+          <input type="text" id="fname" name="fname" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="col-12 col-md-6">
+         
+          <input type="email" id="lname" name="lname" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="col-12">
+  
+          <textarea id="query" name="query" class="form-control" rows="4" placeholder="Your queries"></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-dark">Send Query</button>
+        </div>
+      </form>
+      <div class="pt-4">
+        <a href="mailto:2003vasuki@gmail.com" class="fa fa-google bg-primary m-3 p-3 rounded-circle text-light"></a>
+        <a href="https://github.com/K-Vasuki" class="fa fa-github bg-dark m-3 p-3 rounded-circle text-light"></a>
+        <a href="https://www.linkedin.com/in/vasukik" class="fa fa-linkedin bg-primary m-3 p-3 rounded-circle text-light"></a>
+      </div>
+    </footer>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
